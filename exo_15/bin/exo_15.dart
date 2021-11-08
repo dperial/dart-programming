@@ -12,7 +12,7 @@ void main(List<String> arguments) {
   List<String> passwordTypesChoices = ["weak", "medium", "strong"];
   //List of weak password and randomly choice one between
   List<String> weakPass = ["hello", "world", "1234", "admin", "password"];
-  String choiceWeakpass = weakPass[random.nextInt(weakPass.length)];
+  // String choiceWeakpass = weakPass[random.nextInt(weakPass.length)];
 
   while (true) {
     stdout.write("Do you want a new password ? \n yes | no ");
