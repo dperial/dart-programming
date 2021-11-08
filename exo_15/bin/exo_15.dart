@@ -3,8 +3,6 @@ import 'dart:io';
 import 'dart:math';
 
 void main(List<String> arguments) {
-  Random random = Random();
-
   // User Answer choice
   List<String> userAnsChoice = ["yes", "no"];
 
