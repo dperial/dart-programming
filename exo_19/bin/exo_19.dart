@@ -14,7 +14,7 @@ void drawBoard(List<List<String>> board, int currentUser) {
   the currentUser
   */
   String move;
-  currentUser == 2 ? move = 'X' : move = 'O';
+  currentUser == 1 ? move = 'X' : move = 'O';
 
   stdout.write("Please choose a coordinate: ");
   List choice = stdin.readLineSync()!.split(" ");
